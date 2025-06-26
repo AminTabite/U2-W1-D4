@@ -1,0 +1,151 @@
+Body {
+  height: 100%;
+  width: 100%;
+  background-color: #666666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-family: cursive;
+}
+
+.postit h3 {
+  font-size: 4em;
+}
+
+.postit p {
+  font-size: 2.5em;
+}
+
+
+
+.postit {
+  width: 350px;
+  height: 300px;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  -webkit-box-shadow: -1px 11px 25px 1px #262523;
+  -moz-box-shadow: -1px 11px 25px 1px #262523;
+  -o-box-shadow: -1px 11px 25px 1px #262523;
+  box-shadow: -1px 11px 25px 1px #262523;
+}
+
+.postit > p,
+h3 {
+  flex-grow: 1;
+}
+
+.postit:nth-of-type(1) {
+  background-color: #f9fac8;
+
+  transform: rotate(-4deg) translate(-25px, 5px);
+}
+
+.postit:nth-of-type(2) {
+  background-color: #c5f5c8;
+  transform: rotate(10deg) translate(-4px, 1px);
+}
+
+.postit:nth-of-type(3) {
+  background-color: #c5c5f0;
+  transform: rotate(-5deg) translate(-4px, 18px);
+}
+
+.postit:nth-of-type(4) {
+  background-color: #c5f5c8;
+  transform: rotate(7deg) translate(22px, 9px);
+}
+
+.postit:nth-of-type(5) {
+  background-color: #f9fac8;
+
+  transform: rotate(-7deg) translate(-12px, 9px);
+}
+
+.postit:nth-of-type(6) {
+  background-color: #c5c5f0;
+  transform: rotate(-6deg) translate(-12px, -3px);
+}
+
+.postit:nth-of-type(7) {
+  background-color: #f9fac8;
+  transform: rotate(-6deg) translate(-12px, 25px);
+}
+
+.postit:nth-of-type(8) {
+  background-color: #c5f5c8;
+ transform: rotate(7deg) translate(19px, 25px);
+}
+
+.postit:nth-of-type(1):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+    -webkit-box-shadow: -1px 11px 25px 1px #262523;
+  -moz-box-shadow: -1px 11px 25px 1px #262523;
+  -o-box-shadow: -1px 11px 25px 1px #262523;
+  box-shadow: -1px 11px 25px 1px #262523;
+
+}
+
+
+.postit:nth-of-type(2):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
+
+.postit:nth-of-type(3):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
+
+
+
+.postit:nth-of-type(4):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
+
+
+.postit:nth-of-type(5):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
+
+
+.postit:nth-of-type(6):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
+
+
+
+.postit:nth-of-type(7):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
+
+
+
+
+.postit:nth-of-type(8):hover {
+
+    transform: translate(20px, 0px) scale(1.1);
+  z-index: 5;
+}
